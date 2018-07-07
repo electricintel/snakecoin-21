@@ -6,7 +6,7 @@
 
 1. 本地安装python 2.7 
 2. pip安装flask
-3. git clone 
+3. git clone git@github.com:shiyunlai/snakecoin.git 
 4. cd snakecoin && python app.py
 
 # test.http 
