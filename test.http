@@ -1,0 +1,27 @@
+###
+#
+# 创建一个交易
+#
+POST localhost:5000/txion
+Content-Type:application/json
+
+{
+    "from": "akjflw",
+    "to":"fjlakdj",
+    "amount": 3
+}
+
+###
+#
+# 开采新的区块
+#
+GET localhost:5000/mine
+
+
+###
+#
+# 查看区块
+#
+GET localhost:5000/blocks
+
+###
