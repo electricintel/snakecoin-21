@@ -33,6 +33,13 @@ def next_block(last_block):
 
 def proof_of_work(last_proof):
 
+    """
+    工作量证明POW
+    当该数字可被9（“SnakeCoin”中的字母数）和最后一个区块的证明编号整除时，一个新的SnakeCoin区块就会被开采出来
+    :param last_proof:
+    :return:
+    """
+
     # Create a variable that wewill use to find
     # our next proof of work
 
@@ -56,9 +63,9 @@ def proof_of_work(last_proof):
 # Create the blockchain and add the genesis block
 blockchain=[create_genesis_block()]
 
-previous_block=blockchain[0]
-
-
+# previous_block=blockchain[0]
+#
+#
 # # How many blocks should we add to the chain
 # #after the genesis block
 # num_of_blocks_to_add=20

@@ -29,7 +29,6 @@ def mine():
     # the current block being mined
     # Note: The program will hang here until a new
     #      proof of work is found
-    # 当该数字可被9（“SnakeCoin”中的字母数）和最后一个区块的证明编号整除时，一个新的SnakeCoin区块就会被开采出来
     proof = proof_of_work(last_proof)
 
     # Once we find a valid proof of work,
